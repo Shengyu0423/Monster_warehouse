@@ -1,6 +1,6 @@
 # Monster Beverage Corporation Warehouse Account System
 
-This is a simple project to teach Flask.
+This is the final project for the Future Collar Boot Camp.
 
 ## Project Overview
 
