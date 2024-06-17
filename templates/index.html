@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="text-center">
+        <h2 class="head">Welcome to the Monster Beverage Corporation!</h2>
+        <img width="600" height="300" src="https://1000logos.net/wp-content/uploads/2017/04/Monster-Energy-logo-2.png" alt="Monster Beverage Corporation">
+    </div>
+    <div style="margin-top: 20px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Flavor</th>
+                    <th>Price Per Unit</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for monster in monsters %}
+                <tr>
+                    <td>{{ monster.flavor }}</td>
+                    <td>{{ monster.price_per_unit }}</td>
+                    <td>{{ monster.quantity }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+
