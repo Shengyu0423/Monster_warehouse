@@ -9,8 +9,11 @@ The Monster Beverage Corporation Warehouse Account System is a Flask-based web a
 ## Features
 
 •  View and manage the balance
+
 •  Record purchase and sale transactions
+
 •  View transaction history with filtering options
+
 •  Switch between light and dark themes
 
 ## Cloning and Installation
@@ -39,17 +42,25 @@ The application will start on http://127.0.0.1:5500/ by default.
 ## Usage
 
 • Balance View: View the current balance and add or subtract amounts.
+
 • Purchase: Record a new purchase by specifying the flavor, price per unit, and quantity.
+
 • Sale: Record a new sale by specifying the flavor, price per unit, and quantity.
+
 • History: View the transaction history with options to filter by date, operation type, flavor, price per unit, quantity, and total amount.
+
 • Theme Toggle: Switch between light and dark themes using the toggle button at the bottom of the page.
 
 ## Directory Structure
 
 • app.py: The main Flask application file.
+
 • templates/: Directory containing HTML templates for the web pages.
+
 • static/: Directory containing static files like CSS and JavaScript.
+
 • monster_warehouse.db: SQLite database file.
+
 • requirements.txt: List of Python dependencies required for the project.
 
 ## License
